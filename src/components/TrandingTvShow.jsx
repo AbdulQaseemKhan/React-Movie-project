@@ -50,12 +50,12 @@ function TrandingTvShow() {
       
       <div className=" overlay absolute bottom-0 left-0 w-full bg-white p-5 rounded-t-md transition-all duration-500 ease-in-out transform translate-y-full group-hover:translate-y-0">
                   <div className="flex justify-between items-center mb-3">
-                      <h3 className="font-bold text-sm">{movie.title}</h3>
+                      <h3 className="font-bold  text-sm">{movie.name}</h3>
                       <span className="text-orange-500 font-bold text-lg">{movie.vote_average}</span>
                    </div>
                   <h3 className=" font-bold text-sm">Overview:</h3>
                   <p className="text-sm line-clamp-3 mb-4  font-semibold">{movie.overview}</p> 
-                  <Link to={`/Detail/${movie.id}`} key={movie.id}>
+                  <Link to={`/TrandingTvShowDetail/${movie.id}`} key={movie.id}>
                   <button className="h-10 w-24 font-bold text-sm mt-2 text-white bg-black rounded-full">More Detail</button>
                   </Link>
                   
@@ -65,7 +65,7 @@ function TrandingTvShow() {
          </div>
         ))}
      
-     </Carousel>;
+     </Carousel>
     </>
   )
 }

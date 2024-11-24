@@ -57,7 +57,7 @@ function TrandingMovie() {
               </div>
              <h3 className=" font-bold text-sm">Overview:</h3>
              <p className="text-sm line-clamp-3 mb-4  font-semibold">{movie.overview}</p> 
-             <Link to={`/Detail/${movie.id}`} key={movie.id}>
+             <Link to={`/TrandingMovieDetail/${movie.id}`} key={movie.id}>
              <button className="h-10 w-24 font-bold text-sm mt-2 text-white bg-black rounded-full">More Detail</button>
              </Link>
              
