@@ -38,7 +38,6 @@ function PopulargMovie() {
     
     }, [])
 
-
   return (
     <>
       <Carousel responsive={responsive}>
@@ -59,7 +58,6 @@ function PopulargMovie() {
                     <Link to={`/Popular-Movie-Detail/${movie.id}`} key={movie.id}>
                     <button className="h-10 w-24 font-bold text-sm mt-2 text-white bg-black rounded-full">More Detail</button>
                     </Link>
-                    
       </div>
                 </div> 
           
@@ -73,3 +71,4 @@ function PopulargMovie() {
 }
 
 export default PopulargMovie
+

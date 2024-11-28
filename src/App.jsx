@@ -20,10 +20,10 @@ export default function App() {
     <Route path="/">
     <Route index element={<AllMovies/>}/>
     {/* <Route index element={<MovieApp/>}/> */}
-    <Route path="/Detail/:id" element={<PopularMoviesDetail/>}/>
-    <Route path="/TrandingMovieDetail/:id" element={<TrandingMovieDetail/>}/>
-    <Route path="/AnimeDetail/:id" element={<AnimeDetail/>}/>
-    <Route path="/TrandingTvShowDetail/:id" element={<TvShowDetail/>} />
+    <Route path="/Detail/:movieId" element={<PopularMoviesDetail/>}/>
+    <Route path="/TrandingMovieDetail/:movieId" element={<TrandingMovieDetail/>}/>
+    <Route path="/AnimeDetail/:movieId" element={<AnimeDetail/>}/>
+    <Route path="/TrandingTvShowDetail/:movieId" element={<TvShowDetail/>} />
     <Route path="/Contact" element={<Contact/>}/>
     </Route>
    </Routes>
