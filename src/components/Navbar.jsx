@@ -9,7 +9,9 @@ function Navbar() {
       <li>
             <Link to="/">For You</Link>
         </li>
-        
+      <li>
+            <Link to="All-Media">AllMedia</Link>
+        </li>
         <li>
             <Link to="Contact">Contact</Link>
         </li>

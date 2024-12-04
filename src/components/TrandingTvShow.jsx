@@ -30,7 +30,7 @@ function TrandingTvShow() {
 
 
     useEffect(()=>{
-      fetch("https://api.themoviedb.org/3/tv/63174/recommendations?api_key=105b3449e54997efc78dbad890bf50dc&language=en-US&page=1")
+      fetch("https://api.themoviedb.org/3/tv/popular?api_key=105b3449e54997efc78dbad890bf50dc&language=en-US&page=1")
       .then(res => res.json())
       .then(data => setTrandingTvShow(data.results));
     

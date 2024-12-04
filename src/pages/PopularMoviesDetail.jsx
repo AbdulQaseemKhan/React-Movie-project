@@ -112,7 +112,7 @@ const PopularMoviesDetail = () => {
                          <div className="btn bg-black w-full h-20 flex  items-center justify-center">
                             <button className="bg-red-700 flex items-center justify-center w-3/4 h-11 rounded-full text-base gap-1 font-mono"> <IoIosPlay/> Play </button>
                          </div>
-                         <div className="info h-[398px]  mx-6">
+                         <div className="info h-[438px]  mx-6">
                             <div className="py-1">
                             <strong className="text-xl">Overview</strong>
                             <p className="text-sm">{movie.overview}</p>

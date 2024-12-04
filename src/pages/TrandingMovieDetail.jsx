@@ -156,7 +156,7 @@ const TrandingMovieDetail = () => {
                 )}
 
                 {/* Movie Cast */}
-                <div className="p   px-6">
+                <div className="p   px-6 mt-6">
                     <h2 className="text-2xl font-bold mb-4">Cast :</h2>
                     <Carousel responsive={responsive} className="bg--600">
                         {cast.map((actor) => (
