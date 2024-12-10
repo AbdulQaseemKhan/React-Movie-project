@@ -7,9 +7,12 @@ import TrandingMovieDetail from "./pages/TrandingMovieDetail";
 import AnimeDetail from "./pages/AnimeDetail";
 import TvShowDetail from "./pages/TvShowDetail";  
 import AllMedia from "./pages/AllMedia";
-import Webserise from "./pages/Webserise";
 import Movie from "./pages/Movie";
 import Anime from "./pages/Anime";
+import AllMovieDetail from "./pages/AllMovieDetail";
+import AllAnimeDetail from "./pages/AllAnimeDetail";
+import AllTvShowDetail from "./pages/AllTvShowDetail";
+import TvShow from "./pages/TvShow";
 
 
 
@@ -32,7 +35,11 @@ export default function App() {
     <Route path="/Contact" element={<Contact/>}/>
     <Route path="/Movie" element={<Movie />} />
     <Route path="/Anime" element={<Anime />} />
-   <Route path="/Webserise" element={<Webserise />} />
+   <Route path="/TvShow" element={<TvShow/>} />
+   <Route path="/All-Movie-Detail/:movieId" element={<AllMovieDetail/>} />
+   <Route path="/All-Anime-Detail/:AnimeId" element={<AllAnimeDetail/>} />
+   <Route path="/All-TvShow-Detail/:TvShowId" element={<AllTvShowDetail/>} />
+
     </Route>
    </Routes>
  </>

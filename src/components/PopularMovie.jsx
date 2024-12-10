@@ -32,7 +32,7 @@ function PopulargMovie() {
 
 
     useEffect(()=>{
-      fetch("https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=105b3449e54997efc78dbad890bf50dc")
+      fetch("https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=105b3449e54997efc78dbad890bf50dc&page=1")
       .then(res => res.json())
       .then(data => setPopulargMovie(data.results));
     
